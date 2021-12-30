@@ -1,0 +1,485 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders phone email correctly 1`] = `
+Array [
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 15,
+          "paddingTop": 10,
+          "width": undefined,
+        },
+        Object {
+          "paddingLeft": undefined,
+        },
+      ]
+    }
+  >
+    Enter their contact details 
+below, we’ll do the rest
+  </Text>,
+  <View
+    style={
+      Object {
+        "height": 200,
+        "marginTop": undefined,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "height": 80,
+          "width": undefined,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "paddingTop": 22.81,
+              "width": "100%",
+            },
+            Object {
+              "paddingLeft": 0,
+              "paddingRight": 0,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "white",
+                "flexDirection": "row",
+                "width": 600,
+              },
+              Object {},
+              Object {
+                "alignItems": "flex-start",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#000000",
+                "borderRadius": 14.4067,
+                "height": 50.42,
+                "justifyContent": "flex-start",
+                "margin": 0,
+                "padding": 0,
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#000000",
+                "borderRadius": 10,
+                "borderWidth": 2,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "center",
+                "opacity": 1,
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            <mockedDefaultExport
+              countryCode="US"
+              filterProps={Object {}}
+              onClose={[Function]}
+              onSelect={[Function]}
+              renderFlagButton={[Function]}
+              visible={false}
+              withCallingCode={true}
+              withEmoji={true}
+              withFilter={true}
+              withFlag={true}
+            />
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": undefined,
+                    "fontWeight": "bold",
+                    "margin": 0,
+                  },
+                ]
+              }
+            >
+              +undefined
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#F8F9F9",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "paddingHorizontal": 30,
+                  "paddingVertical": 27,
+                  "textAlign": "left",
+                },
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "height": 50.42,
+                  "margin": 0,
+                  "width": "90%",
+                },
+              ]
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              editable={true}
+              keyboardAppearance="default"
+              keyboardType="number-pad"
+              maxLength={25}
+              onChangeText={[Function]}
+              placeholder="xxxxxxxxxx"
+              rejectResponderTermination={true}
+              selectionColor="black"
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "flex": 1,
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": undefined,
+                    "fontWeight": "bold",
+                    "height": 50.42,
+                    "margin": 0,
+                    "padding": 0,
+                    "width": "90%",
+                  },
+                ]
+              }
+              testID="phoneInputText"
+              underlineColorAndroid="transparent"
+              value=""
+            />
+          </View>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "bottom": 0,
+            "color": "#FFFFFF",
+            "fontSize": 12,
+            "left": 0,
+            "paddingLeft": 50,
+            "paddingTop": 5,
+            "textAlign": "left",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "borderBottomWidth": 1,
+          "borderColor": "gray",
+          "borderTopWidth": 1,
+          "height": 60,
+          "width": undefined,
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email Address"
+        placeholderTextColor="rgba(0, 0, 0, 0.2)"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "fontFamily": "Inter-Regular",
+            "fontSize": undefined,
+            "fontWeight": "bold",
+            "height": 40,
+            "marginVertical": 12,
+          }
+        }
+        testID="emailAddress"
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
+  </View>,
+]
+`;
+
+exports[`should check if input invalid email 1`] = `null`;
+
+exports[`should check if input invalid phone number 1`] = `null`;
+
+exports[`should invite friend failure and show error message when api call return exception 1`] = `null`;
+
+exports[`should invite friend failure and show error message when api call return failure 1`] = `null`;
+
+exports[`should invite friend success when api call return success 1`] = `null`;
+
+exports[`simulate the phone button is pressed 1`] = `
+Array [
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 15,
+          "paddingTop": 10,
+          "width": undefined,
+        },
+        Object {
+          "paddingLeft": undefined,
+        },
+      ]
+    }
+  >
+    Enter their contact details 
+below, we’ll do the rest
+  </Text>,
+  <View
+    style={
+      Object {
+        "height": 200,
+        "marginTop": undefined,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "height": 80,
+          "width": undefined,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+              "paddingTop": 22.81,
+              "width": "100%",
+            },
+            Object {
+              "paddingLeft": 0,
+              "paddingRight": 0,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "white",
+                "flexDirection": "row",
+                "width": 600,
+              },
+              Object {},
+              Object {
+                "alignItems": "flex-start",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#000000",
+                "borderRadius": 14.4067,
+                "height": 50.42,
+                "justifyContent": "flex-start",
+                "margin": 0,
+                "padding": 0,
+                "width": "100%",
+              },
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#000000",
+                "borderRadius": 10,
+                "borderWidth": 2,
+                "flexDirection": "row",
+                "height": 50,
+                "justifyContent": "center",
+                "opacity": 1,
+                "paddingHorizontal": 10,
+              }
+            }
+          >
+            <mockedDefaultExport
+              countryCode="US"
+              filterProps={Object {}}
+              onClose={[Function]}
+              onSelect={[Function]}
+              renderFlagButton={[Function]}
+              visible={false}
+              withCallingCode={true}
+              withEmoji={true}
+              withFilter={true}
+              withFlag={true}
+            />
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": undefined,
+                    "fontWeight": "bold",
+                    "margin": 0,
+                  },
+                ]
+              }
+            >
+              +undefined
+            </Text>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#F8F9F9",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "paddingHorizontal": 30,
+                  "paddingVertical": 27,
+                  "textAlign": "left",
+                },
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "height": 50.42,
+                  "margin": 0,
+                  "width": "90%",
+                },
+              ]
+            }
+          >
+            <TextInput
+              allowFontScaling={true}
+              editable={true}
+              keyboardAppearance="default"
+              keyboardType="number-pad"
+              maxLength={25}
+              onChangeText={[Function]}
+              placeholder="xxxxxxxxxx"
+              rejectResponderTermination={true}
+              selectionColor="black"
+              style={
+                Array [
+                  Object {
+                    "color": "#000000",
+                    "flex": 1,
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "color": "#000000",
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": undefined,
+                    "fontWeight": "bold",
+                    "height": 50.42,
+                    "margin": 0,
+                    "padding": 0,
+                    "width": "90%",
+                  },
+                ]
+              }
+              testID="phoneInputText"
+              underlineColorAndroid="transparent"
+              value=""
+            />
+          </View>
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "bottom": 0,
+            "color": "#FFFFFF",
+            "fontSize": 12,
+            "left": 0,
+            "paddingLeft": 50,
+            "paddingTop": 5,
+            "textAlign": "left",
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "borderBottomWidth": 1,
+          "borderColor": "gray",
+          "borderTopWidth": 1,
+          "height": 60,
+          "width": undefined,
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Email Address"
+        placeholderTextColor="rgba(0, 0, 0, 0.2)"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "fontFamily": "Inter-Regular",
+            "fontSize": undefined,
+            "fontWeight": "bold",
+            "height": 40,
+            "marginVertical": 12,
+          }
+        }
+        testID="emailAddress"
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
+  </View>,
+]
+`;

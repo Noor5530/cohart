@@ -1,0 +1,6 @@
+BUILD=staging
+CodePushDeploymentKey=jyt8Ji5cLJi5W3nc9wH6iw6Ku6_lrCu_ayTMp
+CodePushDeploymentIOSKey=h1aMELOUcj4wQ3K6eUF1IO9gTAoHlzVqTwl7P
+app_name=cohart Beta
+clientID=33290928502-dlbbl5d15f4agaqsj61lv22h8c72vsr1.apps.googleusercontent.com
+REVERSED_CLIENT_ID=com.googleusercontent.apps.33290928502-dlbbl5d15f4agaqsj61lv22h8c72vsr1

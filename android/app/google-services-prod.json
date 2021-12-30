@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "456689258489",
+    "project_id": "cohart-beta-v1",
+    "storage_bucket": "cohart-beta-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456689258489:android:7c5a75b6db565575ab7728",
+        "android_client_info": {
+          "package_name": "com.cohartinc.cohart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456689258489-1nfrqfdd5n3ibtg1148ipt1vk52blufa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfgYGZ7PcsJ1AZoIh7E_pD_u-KsTJTNyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456689258489-1nfrqfdd5n3ibtg1148ipt1vk52blufa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "456689258489-9infln4129c8iv9edtr644ove36c5uor.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cohartinc.cohart.beta"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

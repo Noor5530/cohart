@@ -1,0 +1,155 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for components/SvgIcons/Notification.tsx</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">components/SvgIcons</a> Notification.tsx</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>3/3</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>3/3</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>1/1</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>3/3</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+    </div>
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from "react";
+&nbsp;
+import Svg, { Path } from "react-native-svg";
+import { iconTypes } from "./types";
+export const Notification = (props: iconTypes) =&gt; {
+  const { color = "black", height = "19", width = "16" } = props;
+  return (
+    &lt;Svg
+      width={width}
+      height={height}
+      viewBox="0 0 16 19"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    &gt;
+      &lt;Path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M7.58726 1.75C8.01448 1.75 8.36081 2.09633 8.36081 2.52355C8.36081 3.03874 8.66732 3.59741 9.26471 3.7987C11.462 4.53906 13.0903 6.71461 13.0903 9.32316C13.0903 9.36104 13.0899 9.39882 13.0893 9.43649C13.0881 9.50183 13.0931 9.56582 13.1039 9.62789V12.5105C13.1039 12.8394 13.1805 13.1637 13.3275 13.4579L14.1596 15.1219C14.199 15.2007 14.1417 15.2934 14.0536 15.2934H1.11992C1.03185 15.2934 0.974564 15.2007 1.01395 15.1219L1.81191 13.526C1.95899 13.2319 2.03556 12.9075 2.03556 12.5786V9.75294C2.06936 9.64853 2.08682 9.53692 2.08501 9.42124C2.0845 9.38862 2.08424 9.35593 2.08424 9.32316C2.08424 6.71462 3.71252 4.53907 5.90981 3.7987C6.5072 3.59741 6.81371 3.03874 6.81371 2.52355C6.81371 2.09633 7.16004 1.75 7.58726 1.75ZM9.58401 2.85105C9.44664 2.80476 9.36081 2.66851 9.36081 2.52355C9.36081 1.54405 8.56676 0.75 7.58726 0.75C6.60775 0.75 5.81371 1.54405 5.81371 2.52355C5.81371 2.66851 5.72787 2.80476 5.5905 2.85105C2.97586 3.73204 1.08424 6.29665 1.08424 9.32316C1.08424 9.36116 1.08454 9.39908 1.08513 9.43693C1.08535 9.45079 1.07419 9.46217 1.06033 9.46217C1.04665 9.46217 1.03556 9.47326 1.03556 9.48694V12.5786C1.03556 12.7523 0.995133 12.9235 0.91748 13.0788L0.119523 14.6747C-0.252313 15.4184 0.288463 16.2934 1.11992 16.2934H5.15932C5.40744 17.4128 6.406 18.25 7.6001 18.25C8.79419 18.25 9.79276 17.4128 10.0409 16.2934H14.0536C14.8851 16.2934 15.4258 15.4184 15.054 14.6747L14.222 13.0107C14.1443 12.8554 14.1039 12.6841 14.1039 12.5105V9.46957C14.1039 9.46549 14.1006 9.46217 14.0965 9.46217C14.0923 9.46217 14.089 9.45878 14.0891 9.45464C14.0899 9.41091 14.0903 9.36709 14.0903 9.32316C14.0903 6.29665 12.1987 3.73203 9.58401 2.85105ZM8.99864 16.2934H6.20155C6.41923 16.8532 6.96332 17.25 7.6001 17.25C8.23687 17.25 8.78097 16.8532 8.99864 16.2934Z"
+        fill={color}
+      /&gt;
+    &lt;/Svg&gt;
+  );
+};
+&nbsp;
+export default Notification;
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
+                at Thu Dec 02 2021 12:57:55 GMT+0500 (Pakistan Standard Time)
+            </div>
+        </div>
+        <script src="../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../sorter.js"></script>
+        <script src="../../block-navigation.js"></script>
+    </body>
+</html>
+    

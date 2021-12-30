@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "minHeight": undefined,
+      "paddingVertical": 22,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "width": undefined,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Inter-Regular",
+            "fontSize": undefined,
+          }
+        }
+        testID="numFormat"
+      >
+        0 FANS
+      </Text>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": -70,
+          "top": -25,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+        text="PARTNER ORGANIZATON"
+      >
+        <View>
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight="100%"
+            bbWidth="100%"
+            focusable={false}
+            height="100%"
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "height": undefined,
+                  "width": undefined,
+                },
+                Object {
+                  "flex": 0,
+                  "height": "100%",
+                  "width": "100%",
+                },
+              ]
+            }
+            text="PARTNER ORGANIZATON"
+            vbHeight={200}
+            vbWidth={200}
+            width="100%"
+          >
+            <RNSVGGroup>
+              <RNSVGPath
+                d="M 64,0 A 64,64 0 0 1 -64,0 A 64,64 0 0 1 64,0"
+                fill={null}
+                matrix={
+                  Array [
+                    1,
+                    0,
+                    0,
+                    1,
+                    100,
+                    100,
+                  ]
+                }
+                name="curve"
+                propList={
+                  Array [
+                    "fill",
+                    "stroke",
+                  ]
+                }
+                stroke={null}
+              />
+              <RNSVGText
+                content={null}
+                dx={Array []}
+                dy={Array []}
+                fill={4278203383}
+                font={
+                  Object {
+                    "fontFamily": "Inter-Regular",
+                    "fontSize": 14.8,
+                  }
+                }
+                matrix={
+                  Array [
+                    1,
+                    0,
+                    0,
+                    1,
+                    100,
+                    100,
+                  ]
+                }
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+                rotate={Array []}
+                x={Array []}
+                y={Array []}
+              >
+                <RNSVGTextPath
+                  content={null}
+                  dx={Array []}
+                  dy={Array []}
+                  font={Object {}}
+                  href="curve"
+                  rotate={Array []}
+                  startOffset={0}
+                  x={Array []}
+                  y={Array []}
+                >
+                  <RNSVGTSpan
+                    content="PARTNER ORGANIZATON  ·  PARTNER ORGANIZATON  ·  PARTNER ORGANIZATON  ·  PARTNER ORGANIZATON  ·  PARTNER ORGANIZATON  ·  PARTNER ORGANIZATON  ·  "
+                    dx={Array []}
+                    dy={Array []}
+                    font={Object {}}
+                    rotate={Array []}
+                    x={Array []}
+                    y={Array []}
+                  />
+                </RNSVGTextPath>
+              </RNSVGText>
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "borderRadius": undefined,
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    >
+      <Image
+        progressiveRenderingEnabled={true}
+        resizeMode="cover"
+        source={
+          Object {
+            "testUri": "../../../app/assets/dummyAvator.png",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": undefined,
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E6FF00",
+            "borderRadius": 30,
+            "bottom": 0,
+            "height": 40,
+            "justifyContent": "center",
+            "left": 0,
+            "opacity": 1,
+            "position": "absolute",
+            "width": 40,
+            "zIndex": 5,
+          }
+        }
+        testID="onPressQr"
+      >
+        <mockedDefaultExport
+          color="#000000"
+          name="qrcode"
+          size={22}
+        />
+      </View>
+    </View>
+  </View>
+  <mockedDefaultExport
+    isVisible={false}
+    onBackButtonPress={[Function]}
+    onBackdropPress={[Function]}
+    onSwipeCancel={[Function]}
+    onSwipeMove={[Function]}
+    propagateSwipe={true}
+    style={
+      Object {
+        "height": undefined,
+      }
+    }
+    testID="toggleModel"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#000000",
+          "borderRadius": 10,
+          "borderWidth": 2,
+          "justifyContent": "center",
+          "paddingHorizontal": undefined,
+          "paddingVertical": 25,
+          "width": "80%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "#000000",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 24,
+            "fontWeight": "600",
+            "textAlign": "center",
+            "width": "80%",
+          }
+        }
+      >
+        
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 12,
+            "fontWeight": "400",
+            "textAlign": "center",
+          }
+        }
+      >
+        web.cohart.co/
+        
+      </Text>
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "height": undefined,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <mockedDefaultExport
+            color="#000000"
+            size="large"
+          />
+        </View>
+      </View>
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 20,
+            "fontWeight": "500",
+            "textAlign": "center",
+          }
+        }
+      >
+        Share
+      </Text>
+    </View>
+  </mockedDefaultExport>
+</View>
+`;

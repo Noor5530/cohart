@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders DeepLinkingController component correctly and deeplink branch sdk should be subscribe 1`] = `<View />`;

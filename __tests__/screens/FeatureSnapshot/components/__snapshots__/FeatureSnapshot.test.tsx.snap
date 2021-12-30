@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "white",
+      "height": 160,
+      "opacity": 1,
+      "width": undefined,
+    }
+  }
+  testID="featureSnapShots"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Array [
+          Object {
+            "alignSelf": "center",
+            "bottom": 0,
+            "position": "absolute",
+            "top": 0,
+            "zIndex": 4,
+          },
+          Object {
+            "backgroundColor": "#e1e4e8",
+            "opacity": 1,
+          },
+          Object {
+            "backgroundColor": "#E7E5E7",
+            "flex": 1,
+            "margin": 5,
+          },
+        ],
+      ]
+    }
+  >
+    <FastImageView
+      blurRadius={3}
+      resizeMode="cover"
+      source={
+        Object {
+          "priority": "low",
+          "uri": undefined,
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Array [
+          Object {
+            "backgroundColor": "#E7E5E7",
+            "flex": 1,
+            "margin": 5,
+          },
+        ],
+      ]
+    }
+  >
+    <FastImageView
+      onFastImageError={[Function]}
+      onFastImageLoad={[Function]}
+      resizeMode="cover"
+      source={
+        Object {
+          "uri": undefined,
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;

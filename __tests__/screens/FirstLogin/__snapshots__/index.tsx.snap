@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "white",
+      },
+      Object {
+        "height": 1334,
+        "width": 750,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontFamily": "Inter-Bold",
+        "fontSize": undefined,
+        "marginBottom": undefined,
+        "marginLeft": undefined,
+        "marginTop": undefined,
+      }
+    }
+  >
+    Ready to make connections?
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontFamily": "Inter-Regular",
+        "fontSize": undefined,
+        "marginBottom": undefined,
+        "marginLeft": undefined,
+        "width": undefined,
+      }
+    }
+  >
+    Tell us about yourself to start meeting members of the community
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#E6FF00",
+        "borderRadius": 24.01,
+        "flexDirection": "row",
+        "height": 36,
+        "justifyContent": "center",
+        "opacity": 1,
+        "width": undefined,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "black",
+            "fontFamily": "Inter-Bold",
+            "marginRight": undefined,
+            "textTransform": "uppercase",
+          },
+        ]
+      }
+    >
+      Let's go
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../app/assets/Arrow_Right.png",
+        }
+      }
+    />
+  </View>
+</View>
+`;

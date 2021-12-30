@@ -1,0 +1,1456 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile screen testing renders correctly 1`] = `
+Array [
+  <View
+    onLayout={[Function]}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          undefined,
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "flex": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginTop": 60,
+                "paddingHorizontal": 23,
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "rgba(0, 0, 0, 0.05)",
+                "flexDirection": "row",
+                "height": 35,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 100,
+              }
+            }
+          >
+            <RNSVGSvgView
+              align="xMidYMid"
+              bbHeight="60%"
+              bbWidth="14%"
+              fill="none"
+              focusable={false}
+              height="60%"
+              meetOrSlice={0}
+              minX={0}
+              minY={0}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderWidth": 0,
+                  },
+                  Object {
+                    "flex": 0,
+                    "height": "60%",
+                    "width": "14%",
+                  },
+                ]
+              }
+              vbHeight={14}
+              vbWidth={14}
+              width="14%"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <RNSVGGroup
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              >
+                <RNSVGPath
+                  d="M6.97677 0.523437L0.765165 6.73504L0.5 7.00021L0.765165 7.26537L6.97677 13.477L7.5071 12.9467L2.04344 7.48299L13.6699 7.48299V6.73299L1.82788 6.73299L7.5071 1.05377L6.97677 0.523437Z"
+                  fill={4278190080}
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                />
+              </RNSVGGroup>
+            </RNSVGSvgView>
+            <Text
+              style={
+                Object {
+                  "fontFamily": "Inter-Regular",
+                  "fontSize": 16,
+                  "paddingLeft": 9,
+                }
+              }
+            >
+              Back
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <RNSVGSvgView
+              align="xMidYMid"
+              bbHeight="19"
+              bbWidth="19"
+              fill="none"
+              focusable={false}
+              height="19"
+              meetOrSlice={0}
+              minX={0}
+              minY={0}
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderWidth": 0,
+                  },
+                  Object {
+                    "flex": 0,
+                    "height": 19,
+                    "width": 19,
+                  },
+                ]
+              }
+              vbHeight={19}
+              vbWidth={19}
+              width="19"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <RNSVGGroup
+                fill={null}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              >
+                <RNSVGCircle
+                  cx="9.5"
+                  cy="3.5"
+                  fill={4278190080}
+                  matrix={
+                    Array [
+                      6.123233995736766e-17,
+                      1,
+                      -1,
+                      6.123233995736766e-17,
+                      13,
+                      -6,
+                    ]
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  r="1.5"
+                />
+                <RNSVGCircle
+                  cx="9.5"
+                  cy="9.5"
+                  fill={4278190080}
+                  matrix={
+                    Array [
+                      6.123233995736766e-17,
+                      1,
+                      -1,
+                      6.123233995736766e-17,
+                      19,
+                      0,
+                    ]
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  r="1.5"
+                />
+                <RNSVGCircle
+                  cx="9.5"
+                  cy="15.5"
+                  fill={4278190080}
+                  matrix={
+                    Array [
+                      6.123233995736766e-17,
+                      1,
+                      -1,
+                      6.123233995736766e-17,
+                      25,
+                      5.999999999999998,
+                    ]
+                  }
+                  propList={
+                    Array [
+                      "fill",
+                    ]
+                  }
+                  r="1.5"
+                />
+              </RNSVGGroup>
+            </RNSVGSvgView>
+          </View>
+        </View>
+        <RCTScrollView
+          ListEmptyComponent={[Function]}
+          ListFooterComponent={
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "paddingTop": 20,
+                }
+              }
+            />
+          }
+          ListHeaderComponent={[Function]}
+          contentContainerStyle={
+            Object {
+              "paddingBottom": 100,
+            }
+          }
+          data={
+            Array [
+              0,
+            ]
+          }
+          nestedScrollEnabled={true}
+          numColumns={1}
+          onEndReached={[Function]}
+          onEndReachedThreshold={0.1}
+          onRefresh={[Function]}
+          onScroll={[Function]}
+          refreshControl={
+            <RefreshControlMock
+              onRefresh={[Function]}
+              refreshing={false}
+            />
+          }
+          refreshing={false}
+          removeClippedSubviews={true}
+          renderItem={[Function]}
+          scrollEventThrottle={16}
+          showsVerticalScrollIndicator={false}
+          style={
+            Array [
+              Object {
+                "alignSelf": "stretch",
+                "flex": 1,
+              },
+              Object {
+                "backgroundColor": "#FFFFFF",
+                "flex": 1,
+              },
+            ]
+          }
+          testID="ProfileScreenList"
+        >
+          <RCTRefreshControl />
+          <View>
+            <View
+              style={
+                Object {
+                  "paddingHorizontal": 20,
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "minHeight": undefined,
+                    "paddingVertical": 22,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "width": undefined,
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#000000",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": undefined,
+                        }
+                      }
+                      testID="numFormat"
+                    >
+                      0 FANS
+                    </Text>
+                  </View>
+                </View>
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "position": "absolute",
+                        "right": -70,
+                        "top": -25,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "height": undefined,
+                          "width": undefined,
+                        }
+                      }
+                      text="PARTNER ORGANIZATON"
+                    >
+                      <View>
+                        <RNSVGSvgView
+                          align="xMidYMid"
+                          bbHeight="100%"
+                          bbWidth="100%"
+                          focusable={false}
+                          height="100%"
+                          meetOrSlice={0}
+                          minX={0}
+                          minY={0}
+                          style={
+                            Array [
+                              Object {
+                                "backgroundColor": "transparent",
+                                "borderWidth": 0,
+                              },
+                              Object {
+                                "height": undefined,
+                                "width": undefined,
+                              },
+                              Object {
+                                "flex": 0,
+                                "height": "100%",
+                                "width": "100%",
+                              },
+                            ]
+                          }
+                          text="PARTNER ORGANIZATON"
+                          vbHeight={200}
+                          vbWidth={200}
+                          width="100%"
+                        >
+                          <RNSVGGroup>
+                            <RNSVGPath
+                              d="M 64,0 A 64,64 0 0 1 -64,0 A 64,64 0 0 1 64,0"
+                              fill={null}
+                              matrix={
+                                Array [
+                                  1,
+                                  0,
+                                  0,
+                                  1,
+                                  100,
+                                  100,
+                                ]
+                              }
+                              name="curve"
+                              propList={
+                                Array [
+                                  "fill",
+                                  "stroke",
+                                ]
+                              }
+                              stroke={null}
+                            />
+                            <RNSVGText
+                              content={null}
+                              dx={Array []}
+                              dy={Array []}
+                              fill={4278203383}
+                              font={
+                                Object {
+                                  "fontFamily": "Inter-Regular",
+                                  "fontSize": 14.8,
+                                }
+                              }
+                              matrix={
+                                Array [
+                                  1,
+                                  0,
+                                  0,
+                                  1,
+                                  100,
+                                  100,
+                                ]
+                              }
+                              propList={
+                                Array [
+                                  "fill",
+                                ]
+                              }
+                              rotate={Array []}
+                              x={Array []}
+                              y={Array []}
+                            >
+                              <RNSVGTextPath
+                                content={null}
+                                dx={Array []}
+                                dy={Array []}
+                                font={Object {}}
+                                href="curve"
+                                rotate={Array []}
+                                startOffset={0}
+                                x={Array []}
+                                y={Array []}
+                              >
+                                <RNSVGTSpan
+                                  content="PARTNER ORGANIZATON  ·  PARTNER ORGANIZATON  ·  PARTNER ORGANIZATON  ·  PARTNER ORGANIZATON  ·  PARTNER ORGANIZATON  ·  PARTNER ORGANIZATON  ·  "
+                                  dx={Array []}
+                                  dy={Array []}
+                                  font={Object {}}
+                                  rotate={Array []}
+                                  x={Array []}
+                                  y={Array []}
+                                />
+                              </RNSVGTextPath>
+                            </RNSVGText>
+                          </RNSVGGroup>
+                        </RNSVGSvgView>
+                      </View>
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "borderRadius": undefined,
+                        "height": undefined,
+                        "width": undefined,
+                      }
+                    }
+                  >
+                    <Image
+                      progressiveRenderingEnabled={true}
+                      resizeMode="cover"
+                      source={
+                        Object {
+                          "testUri": "../../../app/assets/dummyAvator.png",
+                        }
+                      }
+                      style={
+                        Object {
+                          "borderRadius": undefined,
+                          "height": undefined,
+                          "width": undefined,
+                        }
+                      }
+                    />
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "backgroundColor": "#E6FF00",
+                          "borderRadius": 30,
+                          "bottom": 0,
+                          "height": 40,
+                          "justifyContent": "center",
+                          "left": 0,
+                          "opacity": 1,
+                          "position": "absolute",
+                          "width": 40,
+                          "zIndex": 5,
+                        }
+                      }
+                      testID="onPressQr"
+                    >
+                      <mockedDefaultExport
+                        color="#000000"
+                        name="qrcode"
+                        size={22}
+                      />
+                    </View>
+                  </View>
+                </View>
+                <mockedDefaultExport
+                  isVisible={false}
+                  onBackButtonPress={[Function]}
+                  onBackdropPress={[Function]}
+                  onSwipeCancel={[Function]}
+                  onSwipeMove={[Function]}
+                  propagateSwipe={true}
+                  style={
+                    Object {
+                      "height": undefined,
+                    }
+                  }
+                  testID="toggleModel"
+                >
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "alignSelf": "center",
+                        "backgroundColor": "#FFFFFF",
+                        "borderColor": "#000000",
+                        "borderRadius": 10,
+                        "borderWidth": 2,
+                        "justifyContent": "center",
+                        "paddingHorizontal": undefined,
+                        "paddingVertical": 25,
+                        "width": "80%",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#000000",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 24,
+                          "fontWeight": "600",
+                          "textAlign": "center",
+                          "width": "80%",
+                        }
+                      }
+                    >
+                      
+                    </Text>
+                    <Text
+                      style={
+                        Object {
+                          "color": "#000000",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 12,
+                          "fontWeight": "400",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      web.cohart.co/
+                      
+                    </Text>
+                    <View
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Object {
+                            "alignItems": "center",
+                            "height": undefined,
+                            "justifyContent": "center",
+                          }
+                        }
+                      >
+                        <mockedDefaultExport
+                          color="#000000"
+                          size="large"
+                        />
+                      </View>
+                    </View>
+                    <Text
+                      style={
+                        Object {
+                          "color": "#FFFFFF",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": 20,
+                          "fontWeight": "500",
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      Share
+                    </Text>
+                  </View>
+                </mockedDefaultExport>
+              </View>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <mockedDefaultExport
+                  buttonTitle="Follow"
+                  disabled={false}
+                  loading={false}
+                  onPress={[Function]}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "borderColor": "#000000",
+                      "borderWidth": 1,
+                      "justifyContent": "center",
+                      "marginBottom": 20,
+                      "paddingVertical": 5,
+                      "width": undefined,
+                    }
+                  }
+                  styleText={
+                    Object {
+                      "color": "#000000",
+                      "fontFamily": "Inter-Regular",
+                      "fontSize": undefined,
+                      "fontWeight": "400",
+                      "textTransform": "uppercase",
+                    }
+                  }
+                  testID="onFollowUserPrimary"
+                />
+              </View>
+            </View>
+            <mockedDefaultExport
+              index={0}
+              onChangeTab={[Function]}
+              testID="TopBar"
+            />
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "column",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "height": 200,
+                        "justifyContent": "center",
+                        "paddingTop": 20,
+                        "width": "100%",
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "height": 200,
+                          "shadowColor": "#000",
+                          "shadowOffset": Object {
+                            "height": 1,
+                            "width": 0,
+                          },
+                          "shadowOpacity": 0.25,
+                          "shadowRadius": 3.84,
+                          "width": undefined,
+                        }
+                      }
+                    >
+                      <View
+                        style={
+                          Array [
+                            Object {
+                              "overflow": "hidden",
+                            },
+                            Object {
+                              "backgroundColor": "#E7E5E7",
+                              "height": 200,
+                              "width": undefined,
+                            },
+                          ]
+                        }
+                      >
+                        <FastImageView
+                          resizeMode="cover"
+                          source={
+                            Object {
+                              "testUri": "../../../app/assets/Placeholder-5.png",
+                            }
+                          }
+                          style={
+                            Object {
+                              "bottom": 0,
+                              "left": 0,
+                              "position": "absolute",
+                              "right": 0,
+                              "top": 0,
+                            }
+                          }
+                        />
+                      </View>
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "overflow": "hidden",
+                          },
+                          Object {
+                            "backgroundColor": "#E7E5E7",
+                            "bottom": 20,
+                            "height": 61,
+                            "left": 0,
+                            "position": "absolute",
+                            "width": undefined,
+                          },
+                        ]
+                      }
+                    >
+                      <FastImageView
+                        resizeMode="cover"
+                        source={
+                          Object {
+                            "testUri": "../../../app/assets/Placeholder-2.png",
+                          }
+                        }
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          }
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "overflow": "hidden",
+                          },
+                          Object {
+                            "backgroundColor": "#E7E5E7",
+                            "height": 75,
+                            "left": undefined,
+                            "position": "absolute",
+                            "top": 40,
+                            "width": undefined,
+                            "zIndex": -6,
+                          },
+                        ]
+                      }
+                    >
+                      <FastImageView
+                        resizeMode="cover"
+                        source={
+                          Object {
+                            "testUri": "../../../app/assets/Placeholder-1.png",
+                          }
+                        }
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          }
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "overflow": "hidden",
+                          },
+                          Object {
+                            "backgroundColor": "#E7E5E7",
+                            "bottom": 40,
+                            "height": 75,
+                            "left": undefined,
+                            "position": "absolute",
+                            "width": undefined,
+                            "zIndex": -5,
+                          },
+                        ]
+                      }
+                    >
+                      <FastImageView
+                        resizeMode="cover"
+                        source={
+                          Object {
+                            "testUri": "../../../app/assets/Placeholder4.png",
+                          }
+                        }
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          }
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "overflow": "hidden",
+                          },
+                          Object {
+                            "backgroundColor": "#E7E5E7",
+                            "bottom": 25,
+                            "height": 75,
+                            "position": "absolute",
+                            "right": -5,
+                            "width": undefined,
+                            "zIndex": -5,
+                          },
+                        ]
+                      }
+                    >
+                      <FastImageView
+                        resizeMode="cover"
+                        source={
+                          Object {
+                            "testUri": "../../../app/assets/Placeholder-3.png",
+                          }
+                        }
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          }
+                        }
+                      />
+                    </View>
+                    <View
+                      style={
+                        Array [
+                          Object {
+                            "overflow": "hidden",
+                          },
+                          Object {
+                            "backgroundColor": "#E7E5E7",
+                            "height": 75,
+                            "position": "absolute",
+                            "right": undefined,
+                            "top": 50,
+                            "width": undefined,
+                            "zIndex": -5,
+                          },
+                        ]
+                      }
+                    >
+                      <FastImageView
+                        resizeMode="cover"
+                        source={
+                          Object {
+                            "testUri": "../../../app/assets/Placeholder-6.png",
+                          }
+                        }
+                        style={
+                          Object {
+                            "bottom": 0,
+                            "left": 0,
+                            "position": "absolute",
+                            "right": 0,
+                            "top": 0,
+                          }
+                        }
+                      />
+                    </View>
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "paddingHorizontal": 20,
+                      }
+                    }
+                  />
+                  <View
+                    style={
+                      Object {
+                        "paddingHorizontal": 20,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "color": "#000000",
+                          "fontFamily": "Inter-Regular",
+                          "fontSize": undefined,
+                          "fontWeight": "500",
+                          "paddingTop": 20,
+                        }
+                      }
+                    >
+                      More about 
+                      
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  "paddingTop": 20,
+                }
+              }
+            />
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+    <RCTSafeAreaView
+      emulateUnlessSupported={true}
+      pointerEvents="box-none"
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        onLayout={[Function]}
+        pointerEvents="box-none"
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      />
+    </RCTSafeAreaView>
+  </View>,
+  <mockedDefaultExport
+    message="They won’t be able to message you or find your profile or contents on Cohart. They won’t be notified that you blocked them"
+    onAccept={[Function]}
+    onAcceptColor="red"
+    onAcceptTitle="Block"
+    onReject={[Function]}
+    onRejectColor="red"
+    onRejectTitle="Cancel"
+    testID="Alert"
+    title="Block undefined?"
+    visible={false}
+  />,
+  <mockedDefaultExport
+    bottomSheetRef={
+      Object {
+        "current": null,
+      }
+    }
+    onPresSubmit={[Function]}
+    testID="ReportBottomSheet"
+  />,
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "white",
+        "borderTopColor": "#000000",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "height": 66,
+        "justifyContent": "space-between",
+        "paddingHorizontal": 10,
+        "paddingTop": 7,
+        "width": undefined,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "width": undefined,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "flex": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+        testID="DiscoverNav"
+      >
+        <View
+          style={Object {}}
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../app/assets/discover.png",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 12,
+                "height": 25,
+                "width": 25,
+              }
+            }
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "fontFamily": "Inter-Regular",
+              "fontSize": 10,
+            }
+          }
+        >
+          Discover
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "flex": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+        testID="CommunityNav"
+      >
+        <View
+          style={Object {}}
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../app/assets/CommunityTab.png",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 12,
+                "height": 25,
+                "width": 25,
+              }
+            }
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "fontFamily": "Inter-Regular",
+              "fontSize": 10,
+            }
+          }
+        >
+          Community
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flex": 1,
+          "justifyContent": "center",
+          "opacity": 1,
+        }
+      }
+      testID="permissionCheck"
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E6FF00",
+            "borderRadius": 25,
+            "height": 50,
+            "justifyContent": "center",
+            "position": "absolute",
+            "top": -30,
+            "width": 50,
+            "zIndex": 5,
+          }
+        }
+      >
+        <mockedDefaultExport
+          color="#000000"
+          name="add"
+          size={30}
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "width": undefined,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "flex": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+        testID="ProfileNav"
+      >
+        <View
+          style={Object {}}
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../app/assets/dummyAvator.png",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 12,
+                "height": 25,
+                "width": 25,
+              }
+            }
+          />
+        </View>
+        <Text
+          style={
+            Object {
+              "fontFamily": "Inter-Regular",
+              "fontSize": 10,
+            }
+          }
+        >
+          Profile
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "flex": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+        testID="MenuNav"
+      >
+        <View
+          style={Object {}}
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight={25}
+            bbWidth={25}
+            fill="none"
+            focusable={false}
+            height={25}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 25,
+                  "width": 25,
+                },
+              ]
+            }
+            vbHeight={16}
+            vbWidth={24}
+            width={25}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <RNSVGGroup
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+            >
+              <RNSVGPath
+                d="M3.90625e-05 1.67187C3.90625e-05 1.02467 0.524705 0.5 1.17191 0.5H22.2657C22.9129 0.5 23.4375 1.02467 23.4375 1.67187C23.4375 2.31908 22.9129 2.84375 22.2657 2.84375H1.17191C0.524705 2.84375 3.90625e-05 2.31908 3.90625e-05 1.67187ZM0 7.92276C0 7.27555 0.524666 6.75089 1.17187 6.75089H22.2656C22.9128 6.75089 23.4375 7.27555 23.4375 7.92276C23.4375 8.56997 22.9128 9.09463 22.2656 9.09463H1.17187C0.524666 9.09463 0 8.56997 0 7.92276ZM1.17187 12.9994C0.524666 12.9994 0 13.524 0 14.1712C0 14.8184 0.524666 15.3431 1.17187 15.3431H22.2656C22.9128 15.3431 23.4375 14.8184 23.4375 14.1712C23.4375 13.524 22.9128 12.9994 22.2656 12.9994H1.17187Z"
+                fill={4278190080}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "fontFamily": "Inter-Regular",
+                "fontSize": 10,
+              },
+            ]
+          }
+        >
+          Menu
+        </Text>
+      </View>
+    </View>
+  </View>,
+  <mockedDefaultExport
+    isVisible={false}
+    onBackButtonPress={[Function]}
+    onBackdropPress={[Function]}
+    onSwipeCancel={[Function]}
+    onSwipeMove={[Function]}
+    propagateSwipe={true}
+    style={
+      Object {
+        "height": undefined,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": undefined,
+          "justifyContent": "center",
+          "paddingHorizontal": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 20,
+            "paddingVertical": 25,
+            "width": "80%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "justifyContent": "space-between",
+              "paddingHorizontal": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "paddingVertical": 5,
+                "textAlign": "center",
+              }
+            }
+          >
+            Upload SnapShot
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "paddingVertical": 5,
+                "textAlign": "center",
+              }
+            }
+          >
+            Upload ArtWork
+          </Text>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 13,
+                "fontWeight": "bold",
+                "paddingVertical": 5,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#1310F8",
+              },
+            ]
+          }
+        >
+          Cancel
+        </Text>
+      </View>
+    </View>
+  </mockedDefaultExport>,
+]
+`;

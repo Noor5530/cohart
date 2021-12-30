@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#E6FF00",
+        "height": undefined,
+        "justifyContent": "flex-end",
+        "paddingBottom": 30,
+      },
+      Object {
+        "width": 750,
+      },
+    ]
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../app/assets/profileHeaderIcon.png",
+      }
+    }
+    style={
+      Object {
+        "height": undefined,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": undefined,
+      }
+    }
+  />
+  <View>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontFamily": "Inter-Bold",
+          "fontSize": undefined,
+          "fontStyle": "normal",
+          "fontWeight": "bold",
+          "height": 19,
+          "lineHeight": 19,
+          "paddingLeft": 38,
+          "textTransform": "uppercase",
+        }
+      }
+    >
+      heading
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontFamily": "Inter-Regular",
+          "fontSize": undefined,
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "paddingLeft": 38,
+          "textTransform": "uppercase",
+        }
+      }
+    >
+      description
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders correctly when use props renderDescription 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#E6FF00",
+        "height": undefined,
+        "justifyContent": "flex-end",
+        "paddingBottom": 30,
+      },
+      Object {
+        "width": 750,
+      },
+    ]
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../app/assets/profileHeaderIcon.png",
+      }
+    }
+    style={
+      Object {
+        "height": undefined,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": undefined,
+      }
+    }
+  />
+  <View>
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontFamily": "Inter-Bold",
+          "fontSize": undefined,
+          "fontStyle": "normal",
+          "fontWeight": "bold",
+          "height": 19,
+          "lineHeight": 19,
+          "paddingLeft": 38,
+          "textTransform": "uppercase",
+        }
+      }
+    >
+      heading
+    </Text>
+    <Text>
+      description 1
+    </Text>
+  </View>
+</View>
+`;

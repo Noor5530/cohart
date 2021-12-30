@@ -1,0 +1,370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "paddingLeft": 16,
+      "paddingRight": 16,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 30,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Inter-Regular",
+          "fontSize": 12,
+          "marginLeft": 7,
+        }
+      }
+    >
+      Affiliation:
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginTop": 5,
+          "width": "100%",
+        }
+      }
+    >
+      <TextInput
+        accessibilityLabel="Add another affiliation"
+        allowFontScaling={true}
+        maxLength={25}
+        onChangeText={[Function]}
+        placeholder="Add another affiliation"
+        placeholderTextColor="#7e8d98"
+        rejectResponderTermination={true}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "paddingHorizontal": 12,
+              "paddingVertical": 4,
+            },
+            Object {
+              "borderBottomWidth": 1,
+              "borderWidth": 0,
+              "fontSize": 20,
+              "marginBottom": 5,
+              "paddingLeft": 6,
+              "width": "100%",
+            },
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginBottom": 30,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Inter-Regular",
+          "fontSize": 12,
+          "marginLeft": 7,
+        }
+      }
+    >
+      You Might Have Seen Me At:
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginTop": 5,
+          "width": "100%",
+        }
+      }
+    >
+      <TextInput
+        accessibilityLabel="Add more entry"
+        allowFontScaling={true}
+        maxLength={25}
+        onChangeText={[Function]}
+        placeholder="Add more entry"
+        placeholderTextColor="#7e8d98"
+        rejectResponderTermination={true}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "paddingHorizontal": 12,
+              "paddingVertical": 4,
+            },
+            Object {
+              "borderBottomWidth": 1,
+              "borderWidth": 0,
+              "fontSize": 20,
+              "marginBottom": 5,
+              "paddingLeft": 6,
+              "width": "100%",
+            },
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginBottom": 30,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Inter-Regular",
+          "fontSize": 12,
+          "marginLeft": 7,
+        }
+      }
+    >
+      Currently
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginTop": 5,
+          "width": "100%",
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        maxLength={25}
+        onChangeText={[Function]}
+        placeholder="Share what you’re up to"
+        rejectResponderTermination={true}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "paddingHorizontal": 12,
+              "paddingVertical": 4,
+            },
+            Object {
+              "borderBottomWidth": 1,
+              "borderWidth": 0,
+              "fontSize": 20,
+              "marginBottom": 5,
+              "paddingLeft": 6,
+              "width": "100%",
+            },
+          ]
+        }
+        testID="currentlyInput"
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "height": "100%",
+            "opacity": 1,
+            "paddingRight": 15,
+            "position": "absolute",
+            "right": -10,
+            "top": 10,
+            "width": 70,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../app/assets/ic_remove_text_2.png",
+            }
+          }
+          style={
+            Object {
+              "height": 15,
+              "width": 15,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Inter-Regular",
+          "fontSize": 12,
+          "marginLeft": 7,
+        }
+      }
+    >
+      INVITED BY
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/assets/ic_hide.png",
+          }
+        }
+        style={
+          Object {
+            "height": 17,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View>
+    <View
+      opacity={0.3}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginTop": 15,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/assets/sample-avatar.jpeg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 26,
+            "height": 52,
+            "marginRight": 11,
+            "width": 52,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "Inter-Regular",
+              "fontSize": 16,
+              "fontWeight": "500",
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontFamily": "Inter-Regular",
+              "fontSize": 10,
+            }
+          }
+        >
+          06 December 2021
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "borderColor": "black",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "height": 43,
+        "justifyContent": "center",
+        "marginBottom": 20,
+        "marginTop": 20,
+        "opacity": 1,
+        "width": undefined,
+      }
+    }
+    testID="buttonSubmit"
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "Inter-Bold",
+          "fontSize": 18,
+        }
+      }
+    >
+      I'M DONE
+    </Text>
+  </View>
+</View>
+`;

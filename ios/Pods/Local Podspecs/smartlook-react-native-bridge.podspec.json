@@ -1,0 +1,33 @@
+{
+  "name": "smartlook-react-native-bridge",
+  "version": "1.2.1",
+  "summary": "React native wrapper for Smartlook SDK",
+  "description": "React native wrapper for Smartlook SDK",
+  "license": "",
+  "authors": "",
+  "homepage": "https://www.smartlook.com/",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://sdk.smartlook.com/ios/rn/smartlook-react-native-bridge-ios-0.30.zip"
+  },
+  "preserve_paths": [
+    "LICENSE",
+    "README.md",
+    "package.json",
+    "index.js"
+  ],
+  "source_files": "ios/*.{h,m}",
+  "public_header_files": "ios/RNSmartlook.h",
+  "static_framework": true,
+  "dependencies": {
+    "React": [
+
+    ],
+    "Smartlook": [
+      ">= 1.7.6"
+    ]
+  }
+}

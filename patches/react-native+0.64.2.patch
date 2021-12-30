@@ -1,0 +1,23 @@
+diff --git a/node_modules/react-native/scripts/react_native_pods.rb b/node_modules/react-native/scripts/react_native_pods.rb
+index db9a34a..1ff774a 100644
+--- a/node_modules/react-native/scripts/react_native_pods.rb
++++ b/node_modules/react-native/scripts/react_native_pods.rb
+@@ -147,14 +147,14 @@ def react_native_post_install(installer)
+   ## Fix for RTC-Folly on iOS 14.5 - makes Hermes work again
+   find_and_replace(
+     "#{pods_prefix}/RCT-Folly/folly/synchronization/DistributedMutex-inl.h",
+-    'atomic_notify_one(state)',
+-    'folly::atomic_notify_one(state)'
++    ' atomic_notify_one(state)',
++    ' folly::atomic_notify_one(state)'
+   )
+ 
+   find_and_replace(
+     "#{pods_prefix}Pods/RCT-Folly/folly/synchronization/DistributedMutex-inl.h",
+-    'atomic_wait_until(&state, previous | data, deadline)',
+-    'folly::atomic_wait_until(&state, previous | data, deadline)'
++    ' atomic_wait_until(&state, previous | data, deadline)',
++    ' folly::atomic_wait_until(&state, previous | data, deadline)'
+   )
+ 
+   ## Exclude `i386` from valid architectures when building with Hermes on iOS

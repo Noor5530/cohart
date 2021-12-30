@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "rgba(0, 0, 0, 0.4)",
+        "borderRadius": 12,
+        "height": 7,
+        "marginTop": 10,
+        "width": 45,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "paddingLeft": undefined,
+        "paddingTop": undefined,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginBottom": undefined,
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/assets/instagram.png",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontFamily": "Inter-Regular",
+            "fontSize": 16,
+            "marginLeft": undefined,
+          }
+        }
+      >
+        @cohart_beta
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginBottom": undefined,
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/assets/twitter.png",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontFamily": "Inter-Regular",
+            "fontSize": 16,
+            "marginLeft": undefined,
+          }
+        }
+      >
+        @cohart_co
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginBottom": undefined,
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/assets/facebook.png",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontFamily": "Inter-Regular",
+            "fontSize": 16,
+            "marginLeft": undefined,
+          }
+        }
+      >
+        /HelloCohart
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginBottom": undefined,
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/assets/cohart-social.png",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontFamily": "Inter-Regular",
+            "fontSize": 16,
+            "marginLeft": undefined,
+          }
+        }
+      >
+        Cohart
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginBottom": undefined,
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/assets/discord.png",
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontFamily": "Inter-Regular",
+            "fontSize": 16,
+            "marginLeft": undefined,
+          }
+        }
+      >
+        Cohart
+      </Text>
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "alignSelf": "center",
+        "fontFamily": "Inter-SemiBold",
+        "fontSize": 18,
+        "marginTop": undefined,
+        "textTransform": "uppercase",
+      }
+    }
+  >
+    swipe down to keep discovering
+  </Text>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "marginTop": undefined,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../app/assets/Arrow_Down.png",
+        }
+      }
+    />
+  </View>
+</View>
+`;

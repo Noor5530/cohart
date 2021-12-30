@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+      "paddingLeft": undefined,
+      "paddingRight": undefined,
+      "paddingTop": undefined,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontFamily": "Inter-Bold",
+        "fontSize": undefined,
+      }
+    }
+  >
+    You are all set!
+  </Text>
+  <Text
+    style={
+      Object {
+        "fontFamily": "Inter-Bold",
+        "fontSize": undefined,
+      }
+    }
+  >
+    Keep discovering your new art world
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignSelf": "center",
+        "fontFamily": "Inter-SemiBold",
+        "fontSize": undefined,
+        "marginBottom": undefined,
+        "marginTop": undefined,
+        "textTransform": "uppercase",
+      }
+    }
+  >
+    Let's go
+  </Text>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../app/assets/Arrow_Down.png",
+      }
+    }
+    style={
+      Object {
+        "alignSelf": "center",
+      }
+    }
+  />
+</View>
+`;

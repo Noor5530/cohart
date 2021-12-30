@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "rgba(0, 0, 0, 0.4)",
+        "borderRadius": 12,
+        "height": 7,
+        "marginTop": 10,
+        "width": 45,
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "alignSelf": "center",
+        "fontFamily": "Inter-SemiBold",
+        "fontSize": 40,
+        "marginBottom": 40,
+        "marginTop": undefined,
+        "width": undefined,
+      }
+    }
+  >
+    Congrats! You’ve been added to the list
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 18,
+          "width": undefined,
+        },
+        Object {
+          "marginBottom": undefined,
+        },
+      ]
+    }
+  >
+    Please head to your email to opt-in. You can track your place on the website.
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 18,
+          "width": undefined,
+        },
+        Object {
+          "marginBottom": undefined,
+        },
+      ]
+    }
+  >
+    Invite a friend to move one step closer in line :)
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-around",
+          "marginTop": undefined,
+        },
+        Object {
+          "marginTop": undefined,
+          "paddingLeft": undefined,
+          "paddingRight": undefined,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderRadius": 24.01,
+          "flexDirection": "row",
+          "height": 36,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": undefined,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontWeight": "bold",
+              "textTransform": "uppercase",
+            },
+            Object {
+              "color": "gray",
+            },
+          ]
+        }
+      >
+        Maybe Later
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E6FF00",
+          "borderRadius": 24.01,
+          "flexDirection": "row",
+          "height": 36,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": undefined,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "fontWeight": "bold",
+              "textTransform": "uppercase",
+            },
+            Object {
+              "color": "black",
+            },
+            Object {
+              "marginRight": undefined,
+            },
+          ]
+        }
+      >
+        Let's do it
+      </Text>
+      <Image
+        source={
+          Object {
+            "testUri": "../../../app/assets/Arrow_Right.png",
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

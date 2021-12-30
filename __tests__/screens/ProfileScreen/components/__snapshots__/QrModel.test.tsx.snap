@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<mockedDefaultExport
+  isVisible={true}
+  onBackButtonPress={[Function]}
+  onBackdropPress={[Function]}
+  onSwipeCancel={[Function]}
+  onSwipeMove={[Function]}
+  propagateSwipe={true}
+  style={
+    Object {
+      "height": undefined,
+    }
+  }
+  testID="toggleModel"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#000000",
+        "borderRadius": 10,
+        "borderWidth": 2,
+        "justifyContent": "center",
+        "paddingHorizontal": undefined,
+        "paddingVertical": 25,
+        "width": "80%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#000000",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 24,
+          "fontWeight": "600",
+          "textAlign": "center",
+          "width": "80%",
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 12,
+          "fontWeight": "400",
+          "textAlign": "center",
+        }
+      }
+    >
+      web.cohart.co/
+    </Text>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": undefined,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <mockedDefaultExport
+          color="#000000"
+          size="large"
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 20,
+          "fontWeight": "500",
+          "textAlign": "center",
+        }
+      }
+    >
+      Share
+    </Text>
+  </View>
+</mockedDefaultExport>
+`;

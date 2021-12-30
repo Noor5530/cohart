@@ -1,0 +1,112 @@
+diff --git a/node_modules/react-native-jw-media-player/.DS_Store b/node_modules/react-native-jw-media-player/.DS_Store
+new file mode 100644
+index 0000000..428f6bd
+Binary files /dev/null and b/node_modules/react-native-jw-media-player/.DS_Store differ
+diff --git a/node_modules/react-native-jw-media-player/index.js b/node_modules/react-native-jw-media-player/index.js
+index b647abd..3e35c19 100644
+--- a/node_modules/react-native-jw-media-player/index.js
++++ b/node_modules/react-native-jw-media-player/index.js
+@@ -1,13 +1,8 @@
+-import React, { Component } from "react";
+-var ReactNative = require("react-native");
+-import {
+-  requireNativeComponent,
+-  UIManager,
+-  NativeModules,
+-  Platform,
+-} from "react-native";
+-import PropTypes from "prop-types";
++import PropTypes from 'prop-types';
++import React, { Component } from 'react';
++import { NativeModules, Platform, requireNativeComponent } from 'react-native';
+ 
++var ReactNative = require("react-native");
+ const RNJWPlayerManager =
+   Platform.OS === "ios"
+     ? NativeModules.RNJWPlayerManager
+@@ -72,7 +67,7 @@ export default class JWPlayer extends Component {
+     landscapeOnFullScreen: PropTypes.bool,
+     portraitOnExitFullScreen: PropTypes.bool,
+     exitFullScreenOnPortrait: PropTypes.bool,
+-    stretching: PropTypes.oneOf(['uniform', 'exactFit', 'fill', 'none']),
++    stretching: PropTypes.oneOf(["uniform", "exactFit", "fill", "none"]),
+     playlistItem: PropTypes.shape({
+       file: PropTypes.string.isRequired,
+       image: PropTypes.string,
+@@ -119,6 +114,7 @@ export default class JWPlayer extends Component {
+     setSpeed: PropTypes.func,
+     setPlaylistIndex: PropTypes.func,
+     setControls: PropTypes.func,
++    setVolume: PropTypes.func,
+     setFullscreen: PropTypes.func,
+     showAirPlayButton: PropTypes.func,
+     hideAirPlayButton: PropTypes.func,
+@@ -190,6 +186,10 @@ export default class JWPlayer extends Component {
+     if (RNJWPlayerManager)
+       RNJWPlayerManager.setControls(this.getRNJWPlayerBridgeHandle(), show);
+   }
++  setVolume(value) {
++    if (RNJWPlayerManager && Platform.OS === "ios")
++      RNJWPlayerManager.setVolume(this.getRNJWPlayerBridgeHandle(), value);
++  }
+ 
+   loadPlaylistItem(playlistItem) {
+     if (RNJWPlayerManager)
+@@ -235,21 +235,50 @@ export default class JWPlayer extends Component {
+   }
+ 
+   showAirPlayButton(x, y, width = 44, hight = 44, autoHide = true) {
+-    if (RNJWPlayerManager && Platform.OS === 'ios')
+-      RNJWPlayerManager.showAirPlayButton(this.getRNJWPlayerBridgeHandle(), x, y, width, hight, autoHide);
++    if (RNJWPlayerManager && Platform.OS === "ios")
++      RNJWPlayerManager.showAirPlayButton(
++        this.getRNJWPlayerBridgeHandle(),
++        x,
++        y,
++        width,
++        hight,
++        autoHide
++      );
+   }
+ 
+   hideAirPlayButton() {
+-    if (RNJWPlayerManager && Platform.OS === 'ios')
++    if (RNJWPlayerManager && Platform.OS === "ios")
+       RNJWPlayerManager.hideAirPlayButton(this.getRNJWPlayerBridgeHandle());
+   }
+ 
+-  showCastButton(x, y, width = 24, hight = 24, autoHide = true, customButton = false) {
++  showCastButton(
++    x,
++    y,
++    width = 24,
++    hight = 24,
++    autoHide = true,
++    customButton = false
++  ) {
+     if (RNJWPlayerManager) {
+-      if (Platform.OS === 'ios') {
+-          RNJWPlayerManager.showCastButton(this.getRNJWPlayerBridgeHandle(), x, y, width, hight, autoHide, customButton);
++      if (Platform.OS === "ios") {
++        RNJWPlayerManager.showCastButton(
++          this.getRNJWPlayerBridgeHandle(),
++          x,
++          y,
++          width,
++          hight,
++          autoHide,
++          customButton
++        );
+       } else {
+-          RNJWPlayerManager.showCastButton(this.getRNJWPlayerBridgeHandle(), x, y, width, hight, autoHide);
++        RNJWPlayerManager.showCastButton(
++          this.getRNJWPlayerBridgeHandle(),
++          x,
++          y,
++          width,
++          hight,
++          autoHide
++        );
+       }
+     }
+   }

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should automaticall check version with version controller is executed in the app 1`] = `
+<View
+  testID="VersionIsUpdated"
+/>
+`;
+
+exports[`Should prompt the user popup to require user update if there is new version in the appstore 1`] = `
+<View
+  testID="VersionIsUpdated"
+/>
+`;

@@ -1,0 +1,35 @@
+{
+  "name": "react-native-jw-media-player",
+  "version": "0.1.57",
+  "summary": "React-native Android/iOS plugin for JWPlayer SDK (https://www.jwplayer.com/)",
+  "license": "MIT",
+  "authors": "chaimPaneth <chaim@chaimpaneth.com> (chaimpaneth.com)",
+  "homepage": "https://github.com/chaimPaneth/react-native-jw-media-player#readme",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/chaimPaneth/react-native-jw-media-player.git",
+    "tag": "v0.1.57"
+  },
+  "source_files": "RNJWPlayer*.{h,m}",
+  "resources": "Assets/*.png",
+  "dependencies": {
+    "JWPlayer-SDK": [
+
+    ],
+    "google-cast-sdk": [
+      "~> 4.4.5"
+    ],
+    "React": [
+
+    ]
+  },
+  "info_plist": {
+    "NSBluetoothAlwaysUsageDescription": "We will use your Bluetooth for media casting.",
+    "NSBluetoothPeripheralUsageDescription": "We will use your Bluetooth for media casting.",
+    "NSLocalNetworkUsageDescription": "We will use the local network to discover Cast-enabled devices on your WiFi network.",
+    "Privacy - Local Network Usage Description": "We will use the local network to discover Cast-enabled devices on your WiFi network.",
+    "NSMicrophoneUsageDescription": "We will use your Microphone for media casting."
+  }
+}

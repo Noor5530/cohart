@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Object {
+      "height": undefined,
+      "width": undefined,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../app/assets/LoginBackGround.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "flex-end",
+        "paddingBottom": undefined,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 18.0084,
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "lineHeight": 22,
+          "textAlign": "center",
+          "width": 298.94,
+        }
+      }
+    >
+      Enter the verification code sent to your phone
+       
+    </Text>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "height": 50,
+          "justifyContent": "space-between",
+          "marginTop": undefined,
+          "paddingHorizontal": undefined,
+          "width": "100%",
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        autoFocus={true}
+        keyboardType="number-pad"
+        maxLength={1}
+        onChangeText={[Function]}
+        placeholder="X"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 14.4067,
+            "color": "#000000",
+            "fontFamily": "Inter-Regular",
+            "fontSize": undefined,
+            "height": 50,
+            "margin": 0,
+            "padding": 0,
+            "paddingLeft": undefined,
+            "width": undefined,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <TextInput
+        allowFontScaling={true}
+        keyboardType="number-pad"
+        maxLength={1}
+        onChangeText={[Function]}
+        placeholder="X"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 14.4067,
+            "color": "#000000",
+            "fontFamily": "Inter-Regular",
+            "fontSize": undefined,
+            "height": 50,
+            "margin": 0,
+            "padding": 0,
+            "paddingLeft": undefined,
+            "width": undefined,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <TextInput
+        allowFontScaling={true}
+        keyboardType="number-pad"
+        maxLength={1}
+        onChangeText={[Function]}
+        placeholder="X"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 14.4067,
+            "color": "#000000",
+            "fontFamily": "Inter-Regular",
+            "fontSize": undefined,
+            "height": 50,
+            "margin": 0,
+            "padding": 0,
+            "paddingLeft": undefined,
+            "width": undefined,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <TextInput
+        allowFontScaling={true}
+        keyboardType="number-pad"
+        maxLength={1}
+        onChangeText={[Function]}
+        placeholder="X"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 14.4067,
+            "color": "#000000",
+            "fontFamily": "Inter-Regular",
+            "fontSize": undefined,
+            "height": 50,
+            "margin": 0,
+            "padding": 0,
+            "paddingLeft": undefined,
+            "width": undefined,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <TextInput
+        allowFontScaling={true}
+        keyboardType="number-pad"
+        maxLength={1}
+        onChangeText={[Function]}
+        placeholder="X"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 14.4067,
+            "color": "#000000",
+            "fontFamily": "Inter-Regular",
+            "fontSize": undefined,
+            "height": 50,
+            "margin": 0,
+            "padding": 0,
+            "paddingLeft": undefined,
+            "width": undefined,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <TextInput
+        allowFontScaling={true}
+        keyboardType="number-pad"
+        maxLength={1}
+        onChangeText={[Function]}
+        placeholder="X"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 14.4067,
+            "color": "#000000",
+            "fontFamily": "Inter-Regular",
+            "fontSize": undefined,
+            "height": 50,
+            "margin": 0,
+            "padding": 0,
+            "paddingLeft": undefined,
+            "width": undefined,
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingTop": 23,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "lineHeight": 17,
+            "paddingLeft": 10,
+            "textAlign": "center",
+          }
+        }
+      >
+        Didn’t receive it?
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E6FF00",
+          "borderRadius": 30,
+          "height": 48,
+          "justifyContent": "center",
+          "marginTop": undefined,
+          "opacity": 1,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Inter-Regular",
+            "fontSize": undefined,
+            "fontStyle": "normal",
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        Resend via mobile number
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "bottom": 10,
+          "color": "#FFFFFF",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 10.955,
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "left": 41.24,
+          "lineHeight": 16,
+          "position": "absolute",
+          "textTransform": "uppercase",
+        }
+      }
+    >
+      Featured artist: alec demarco
+    </Text>
+  </View>
+</View>
+`;

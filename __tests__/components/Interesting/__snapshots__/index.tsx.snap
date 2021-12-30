@@ -1,0 +1,722 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#E6FF00",
+          "height": undefined,
+          "justifyContent": "flex-end",
+          "paddingBottom": 30,
+        },
+        Object {
+          "width": 750,
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../app/assets/profileHeaderIcon.png",
+        }
+      }
+      style={
+        Object {
+          "height": undefined,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": undefined,
+        }
+      }
+    />
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Inter-Bold",
+            "fontSize": undefined,
+            "fontStyle": "normal",
+            "fontWeight": "bold",
+            "height": 19,
+            "lineHeight": 19,
+            "paddingLeft": 38,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        I’M INTERESTED IN..
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Inter-Regular",
+            "fontSize": undefined,
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "lineHeight": 12,
+            "paddingLeft": 38,
+            "paddingTop": 12,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        SELECT AT LEAST ONE OPTION
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#000000",
+            "fontFamily": "Inter-Regular",
+            "fontSize": undefined,
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "lineHeight": 12,
+            "paddingLeft": 38,
+            "paddingTop": 12,
+            "textTransform": "uppercase",
+          }
+        }
+      >
+        [ YOU CAN CHANGE THIS LATER ]
+      </Text>
+    </View>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingBottom": 100,
+        "paddingHorizontal": 38,
+        "paddingTop": 28,
+      }
+    }
+    data={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Building My Community",
+          "tag": Object {
+            "testUri": "../../../app/assets/Community.png",
+          },
+        },
+        Object {
+          "id": 2,
+          "name": "Showcasing My Work",
+        },
+        Object {
+          "id": 3,
+          "name": "Buying Artwork",
+        },
+        Object {
+          "id": 4,
+          "name": "Inspiration",
+          "tag": Object {
+            "testUri": "../../../app/assets/Inspiration.png",
+          },
+        },
+        Object {
+          "id": 5,
+          "name": "Sharing Ideas & Concepts",
+          "tag": Object {
+            "testUri": "../../../app/assets/Community.png",
+          },
+        },
+        Object {
+          "id": 6,
+          "name": "Meeting  Artists",
+          "tag": Object {
+            "testUri": "../../../app/assets/Circle.png",
+          },
+        },
+        Object {
+          "id": 7,
+          "name": "Meeting Collectors",
+        },
+        Object {
+          "id": 8,
+          "name": "Collaboration",
+          "tag": Object {
+            "testUri": "../../../app/assets/Community.png",
+          },
+        },
+        Object {
+          "id": 9,
+          "name": "Art News",
+        },
+        Object {
+          "id": 10,
+          "name": "Workshops & Talks",
+          "tag": Object {
+            "testUri": "../../../app/assets/StarIconFull.png",
+          },
+        },
+        Object {
+          "id": 11,
+          "name": "Reselling Artwork",
+        },
+        Object {
+          "id": 12,
+          "name": "Exploration",
+        },
+        Object {
+          "id": 13,
+          "name": "I Don’t Know Yet",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "rgba(0, 0, 0, 0.2)",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 40,
+                "fontWeight": "bold",
+                "paddingBottom": 25,
+                "width": 298,
+              }
+            }
+          >
+            Building My Community
+          </Text>
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../app/assets/Community.png",
+              }
+            }
+            style={
+              Object {
+                "height": 50,
+                "left": 210,
+                "opacity": 0,
+                "position": "absolute",
+                "top": 10,
+                "width": 55,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "rgba(0, 0, 0, 0.2)",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 40,
+                "fontWeight": "bold",
+                "paddingBottom": 25,
+                "width": 298,
+              }
+            }
+          >
+            Showcasing My Work
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "rgba(0, 0, 0, 0.2)",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 40,
+                "fontWeight": "bold",
+                "paddingBottom": 25,
+                "width": 298,
+              }
+            }
+          >
+            Buying Artwork
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "rgba(0, 0, 0, 0.2)",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 40,
+                "fontWeight": "bold",
+                "paddingBottom": 25,
+                "width": 298,
+              }
+            }
+          >
+            Inspiration
+          </Text>
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../app/assets/Inspiration.png",
+              }
+            }
+            style={
+              Object {
+                "height": 50,
+                "left": 210,
+                "opacity": 0,
+                "position": "absolute",
+                "top": 10,
+                "width": 55,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "rgba(0, 0, 0, 0.2)",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 40,
+                "fontWeight": "bold",
+                "paddingBottom": 25,
+                "width": 298,
+              }
+            }
+          >
+            Sharing Ideas & Concepts
+          </Text>
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../app/assets/Community.png",
+              }
+            }
+            style={
+              Object {
+                "height": 50,
+                "left": 210,
+                "opacity": 0,
+                "position": "absolute",
+                "top": 10,
+                "width": 55,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "rgba(0, 0, 0, 0.2)",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 40,
+                "fontWeight": "bold",
+                "paddingBottom": 25,
+                "width": 298,
+              }
+            }
+          >
+            Meeting  Artists
+          </Text>
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../app/assets/Circle.png",
+              }
+            }
+            style={
+              Object {
+                "height": 50,
+                "left": 210,
+                "opacity": 0,
+                "position": "absolute",
+                "top": 10,
+                "width": 55,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "rgba(0, 0, 0, 0.2)",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 40,
+                "fontWeight": "bold",
+                "paddingBottom": 25,
+                "width": 298,
+              }
+            }
+          >
+            Meeting Collectors
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "rgba(0, 0, 0, 0.2)",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 40,
+                "fontWeight": "bold",
+                "paddingBottom": 25,
+                "width": 298,
+              }
+            }
+          >
+            Collaboration
+          </Text>
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../app/assets/Community.png",
+              }
+            }
+            style={
+              Object {
+                "height": 50,
+                "left": 210,
+                "opacity": 0,
+                "position": "absolute",
+                "top": 10,
+                "width": 55,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "rgba(0, 0, 0, 0.2)",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 40,
+                "fontWeight": "bold",
+                "paddingBottom": 25,
+                "width": 298,
+              }
+            }
+          >
+            Art News
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "rgba(0, 0, 0, 0.2)",
+                "fontFamily": "Inter-Regular",
+                "fontSize": 40,
+                "fontWeight": "bold",
+                "paddingBottom": 25,
+                "width": 298,
+              }
+            }
+          >
+            Workshops & Talks
+          </Text>
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../app/assets/StarIconFull.png",
+              }
+            }
+            style={
+              Object {
+                "height": 50,
+                "left": 210,
+                "opacity": 0,
+                "position": "absolute",
+                "top": 10,
+                "width": 55,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+  <Snackbar
+    onDismiss={[Function]}
+    style={
+      Object {
+        "bottom": 0,
+        "position": "absolute",
+      }
+    }
+    visible={false}
+  >
+    Something went wrong!
+  </Snackbar>
+</View>
+`;

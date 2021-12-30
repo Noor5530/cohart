@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+      "height": undefined,
+      "width": 750,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "center",
+        "fontFamily": "Inter-SemiBold",
+        "fontSize": 40,
+        "marginBottom": undefined,
+        "marginTop": 156,
+        "width": 315,
+      }
+    }
+  >
+    Ready to add your voice to the community?
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#E6FF00",
+        "borderRadius": 24.01,
+        "flexDirection": "row",
+        "height": 37,
+        "justifyContent": "center",
+        "marginTop": undefined,
+        "opacity": 1,
+        "paddingLeft": 37,
+        "paddingRight": 37,
+        "width": undefined,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#000000",
+          "fontFamily": "Inter-Regular",
+          "fontSize": undefined,
+          "fontStyle": "normal",
+          "fontWeight": "bold",
+          "marginRight": undefined,
+          "textAlign": "center",
+        }
+      }
+    >
+      LET'S GO
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../app/assets/Arrow_Right.png",
+        }
+      }
+    />
+  </View>
+</View>
+`;

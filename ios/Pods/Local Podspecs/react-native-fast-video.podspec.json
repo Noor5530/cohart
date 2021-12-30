@@ -1,0 +1,48 @@
+{
+  "name": "react-native-fast-video",
+  "version": "5.1.7",
+  "summary": "A <Video /> element for react-native",
+  "description": "A <Video /> element for react-native",
+  "license": "MIT",
+  "authors": "Brent Vatne <brentvatne@gmail.com> (https://github.com/brentvatne)",
+  "homepage": "https://github.com/cuvent/react-native-fast-video",
+  "source": {
+    "git": "https://github.com/cuvent/react-native-fast-video.git",
+    "tag": "5.1.7"
+  },
+  "platforms": {
+    "ios": "10.0",
+    "tvos": "10.0"
+  },
+  "static_framework": true,
+  "dependencies": {
+    "React-Core": [
+
+    ]
+  },
+  "default_subspecs": "Video",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  },
+  "subspecs": [
+    {
+      "name": "Video",
+      "source_files": "ios/Video/*.{h,m}"
+    },
+    {
+      "name": "VideoCaching",
+      "dependencies": {
+        "react-native-fast-video/Video": [
+
+        ],
+        "SPTPersistentCache": [
+          "~> 1.1.0"
+        ],
+        "DVAssetLoaderDelegate": [
+          "~> 0.3.3"
+        ]
+      },
+      "source_files": "ios/VideoCaching/**/*.{h,m}"
+    }
+  ]
+}

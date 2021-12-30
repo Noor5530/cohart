@@ -1,0 +1,555 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 200,
+        "justifyContent": "center",
+        "paddingTop": 20,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "height": 200,
+          "opacity": 1,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 1,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "width": undefined,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 200,
+              "width": undefined,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/Placeholder-5.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(0, 0, 0, 0.6)",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../app/assets/ic_edit.png",
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "bottom": 20,
+          "left": 0,
+          "opacity": 1,
+          "position": "absolute",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 61,
+              "width": undefined,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/Placeholder-2.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(0, 0, 0, 0.6)",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../app/assets/ic_edit.png",
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "left": undefined,
+          "opacity": 1,
+          "position": "absolute",
+          "top": 40,
+          "zIndex": -6,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 75,
+              "width": undefined,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/Placeholder-1.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(0, 0, 0, 0.6)",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../app/assets/ic_edit.png",
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "bottom": 40,
+          "left": undefined,
+          "opacity": 1,
+          "position": "absolute",
+          "zIndex": -5,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 75,
+              "width": undefined,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/Placeholder-4.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(0, 0, 0, 0.6)",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../app/assets/ic_edit.png",
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "bottom": 25,
+          "opacity": 1,
+          "position": "absolute",
+          "right": -5,
+          "zIndex": -5,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 75,
+              "width": undefined,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/Placeholder-3.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(0, 0, 0, 0.6)",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../app/assets/ic_edit.png",
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "position": "absolute",
+          "right": undefined,
+          "top": 50,
+          "zIndex": -5,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 75,
+              "width": undefined,
+            },
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../app/assets/Placeholder-6.png",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(0, 0, 0, 0.6)",
+            "bottom": 0,
+            "justifyContent": "center",
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../app/assets/ic_edit.png",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "paddingLeft": 16,
+        "paddingRight": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "fontFamily": "Inter-SemiBold",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "marginTop": 25,
+        }
+      }
+    />
+    <TextInput
+      allowFontScaling={true}
+      maxLength={345}
+      multiline={true}
+      numberOfLines={18}
+      onChangeText={[Function]}
+      placeholder="Enter your bio.."
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "borderWidth": 0,
+          "fontFamily": "Inter-Regular",
+          "fontSize": 24,
+          "marginBottom": 5,
+          "marginTop": 10,
+          "minHeight": 40,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <Text
+      style={
+        Object {
+          "color": "rgba(0,0,0,0.5)",
+          "fontSize": 14,
+        }
+      }
+    >
+      0
+      /345 characters
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "borderColor": "black",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "height": 43,
+          "justifyContent": "center",
+          "marginBottom": 20,
+          "marginTop": 20,
+          "opacity": 1,
+          "width": undefined,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "Inter-Bold",
+            "fontSize": 18,
+          }
+        }
+      >
+        I'M DONE
+      </Text>
+    </View>
+  </View>
+</View>
+`;

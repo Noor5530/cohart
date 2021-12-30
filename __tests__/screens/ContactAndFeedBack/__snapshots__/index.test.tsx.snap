@@ -1,0 +1,431 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly Contact and feedBack Screen 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "white",
+        "borderBottomColor": "#000000",
+        "borderBottomWidth": 1.5,
+        "flexDirection": "row",
+        "height": 80,
+        "justifyContent": "space-between",
+        "paddingHorizontal": 20,
+        "paddingTop": 30,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "padding": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "width": 38,
+          }
+        }
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight="14"
+          bbWidth="21"
+          fill="none"
+          focusable={false}
+          height="14"
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {
+                "flex": 0,
+                "height": 14,
+                "width": 21,
+              },
+            ]
+          }
+          vbHeight={14}
+          vbWidth={21}
+          width="21"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <RNSVGGroup
+            fill={null}
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+          >
+            <RNSVGPath
+              d="M6.64474 0.583984L0.433134 6.79559L0.167969 7.06076L0.433134 7.32592L6.64474 13.5375L7.17507 13.0072L1.66787 7.5L21 7.5V6.75L1.53939 6.75L7.17507 1.11431L6.64474 0.583984Z"
+              fill={4278190080}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontSize": 20,
+            },
+            Object {
+              "color": "#000000",
+              "fontFamily": "AktivGroteskExTrial-Bold",
+            },
+            Object {
+              "fontFamily": "AktivGroteskExTrial-Bold",
+            },
+          ]
+        }
+      >
+        COHART
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+          "padding": 10,
+        }
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight="19"
+        bbWidth="16"
+        fill="none"
+        focusable={false}
+        height="19"
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "flex": 0,
+              "height": 19,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={19}
+        vbWidth={16}
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <RNSVGGroup
+          fill={null}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M7.58726 1.75C8.01448 1.75 8.36081 2.09633 8.36081 2.52355C8.36081 3.03874 8.66732 3.59741 9.26471 3.7987C11.462 4.53906 13.0903 6.71461 13.0903 9.32316C13.0903 9.36104 13.0899 9.39882 13.0893 9.43649C13.0881 9.50183 13.0931 9.56582 13.1039 9.62789V12.5105C13.1039 12.8394 13.1805 13.1637 13.3275 13.4579L14.1596 15.1219C14.199 15.2007 14.1417 15.2934 14.0536 15.2934H1.11992C1.03185 15.2934 0.974564 15.2007 1.01395 15.1219L1.81191 13.526C1.95899 13.2319 2.03556 12.9075 2.03556 12.5786V9.75294C2.06936 9.64853 2.08682 9.53692 2.08501 9.42124C2.0845 9.38862 2.08424 9.35593 2.08424 9.32316C2.08424 6.71462 3.71252 4.53907 5.90981 3.7987C6.5072 3.59741 6.81371 3.03874 6.81371 2.52355C6.81371 2.09633 7.16004 1.75 7.58726 1.75ZM9.58401 2.85105C9.44664 2.80476 9.36081 2.66851 9.36081 2.52355C9.36081 1.54405 8.56676 0.75 7.58726 0.75C6.60775 0.75 5.81371 1.54405 5.81371 2.52355C5.81371 2.66851 5.72787 2.80476 5.5905 2.85105C2.97586 3.73204 1.08424 6.29665 1.08424 9.32316C1.08424 9.36116 1.08454 9.39908 1.08513 9.43693C1.08535 9.45079 1.07419 9.46217 1.06033 9.46217C1.04665 9.46217 1.03556 9.47326 1.03556 9.48694V12.5786C1.03556 12.7523 0.995133 12.9235 0.91748 13.0788L0.119523 14.6747C-0.252313 15.4184 0.288463 16.2934 1.11992 16.2934H5.15932C5.40744 17.4128 6.406 18.25 7.6001 18.25C8.79419 18.25 9.79276 17.4128 10.0409 16.2934H14.0536C14.8851 16.2934 15.4258 15.4184 15.054 14.6747L14.222 13.0107C14.1443 12.8554 14.1039 12.6841 14.1039 12.5105V9.46957C14.1039 9.46549 14.1006 9.46217 14.0965 9.46217C14.0923 9.46217 14.089 9.45878 14.0891 9.45464C14.0899 9.41091 14.0903 9.36709 14.0903 9.32316C14.0903 6.29665 12.1987 3.73203 9.58401 2.85105ZM8.99864 16.2934H6.20155C6.41923 16.8532 6.96332 17.25 7.6001 17.25C8.23687 17.25 8.78097 16.8532 8.99864 16.2934Z"
+            fill={4278190080}
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "borderBottomWidth": 2,
+        "borderColor": "#000000",
+        "flexDirection": "row",
+        "paddingTop": 35,
+        "width": "90%",
+      }
+    }
+  >
+    <Text
+      numberOfLines={3}
+      style={
+        Object {
+          "fontFamily": "Inter-Bold",
+          "fontSize": undefined,
+          "maxWidth": "90%",
+          "textAlign": "left",
+        }
+      }
+    >
+      Report Bugs + Content + Feedback
+    </Text>
+    <View
+      style={
+        Object {
+          "height": "100%",
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../app/assets/reportIcon.png",
+          }
+        }
+        style={
+          Object {
+            "height": 100,
+            "left": -80,
+            "marginTop": 5,
+            "top": -34,
+            "width": 120,
+          }
+        }
+      />
+    </View>
+  </View>
+  <Text
+    style={
+      Object {
+        "alignItems": "center",
+        "color": "#000000",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 20.1436,
+        "fontStyle": "normal",
+        "fontWeight": "500",
+        "marginBottom": 7,
+        "marginLeft": 5,
+      }
+    }
+  >
+    Name
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    maxLength={30}
+    onChangeText={[Function]}
+    placeholder="Name"
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 12.8335,
+          "borderWidth": 0.641676,
+          "color": "#000000",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 19.6277,
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "height": 42,
+          "paddingLeft": 14.44,
+        },
+        Object {
+          "marginBottom": 20,
+        },
+      ]
+    }
+    testID="name"
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text
+    style={
+      Object {
+        "alignItems": "center",
+        "color": "#000000",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 20.1436,
+        "fontStyle": "normal",
+        "fontWeight": "500",
+        "marginBottom": 7,
+        "marginLeft": 5,
+      }
+    }
+  >
+    Email
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="Email"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "borderRadius": 12.8335,
+        "borderWidth": 0.641676,
+        "color": "#000000",
+        "fontFamily": "Inter-Regular",
+        "fontSize": 19.6277,
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "height": 42,
+        "paddingLeft": 14.44,
+      }
+    }
+    testID="email"
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "color": "#000000",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 20.1436,
+          "fontStyle": "normal",
+          "fontWeight": "500",
+          "marginBottom": 7,
+          "marginLeft": 5,
+        },
+        Object {
+          "marginTop": 20,
+        },
+      ]
+    }
+  >
+    Report/Feedback
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    maxLength={250}
+    multiline={true}
+    onChangeText={[Function]}
+    placeholder="Report/Feedback"
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 12.8335,
+          "borderWidth": 0.641676,
+          "color": "#000000",
+          "fontFamily": "Inter-Regular",
+          "fontSize": 19.6277,
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "height": 42,
+          "paddingLeft": 14.44,
+        },
+        Object {
+          "height": 200,
+          "marginBottom": 20,
+          "textAlignVertical": "top",
+        },
+      ]
+    }
+    testID="report"
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "rgba(0, 0, 0, 0.2)",
+        "borderRadius": 24.0334,
+        "borderWidth": 1,
+        "height": 42.06,
+        "justifyContent": "center",
+        "marginTop": 45,
+        "opacity": 1,
+        "width": 114.16,
+      }
+    }
+    testID="sendEmail"
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "rgba(0, 0, 0, 0.2)",
+            "fontFamily": "Inter-Regular",
+            "fontSize": 17.8172,
+            "fontStyle": "normal",
+            "fontWeight": "500",
+          },
+          Object {
+            "color": "rgba(0, 0, 0, 0.2)",
+          },
+        ]
+      }
+    >
+      SUBMIT
+    </Text>
+  </View>
+</View>
+`;
